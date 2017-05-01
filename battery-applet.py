@@ -52,6 +52,10 @@ class Battery(object):
     self.Status = info.get("Status", "Invalid")
     self.EnergyFull = info.get("EnergyFull", 0)
     self.EnergyNow = info.get("EnergyNow", 0)
+    self.PowerNow = info.get("PowerNow", 0)
+
+  def IsCharging(self):
+    return self.Status == "Charging"
 
   def ChargeFloat(self):
     return float(self.Charge)
@@ -61,6 +65,9 @@ class Battery(object):
 
   def EnergyFullFloat(self):
     return float(self.EnergyFull)
+
+  def PowerNowFloat(self):
+    return float(self.PowerNow)
 
 
 class BatteryInfo(object):
@@ -83,7 +90,7 @@ class BatteryInfo(object):
             /sys/class/power_supply/(?P=BatteryName)/energy_now\ *=\ *
                 (?P<EnergyNow>\d*)\ \[mWh\]\n
             /sys/class/power_supply/(?P=BatteryName)/power_now\ *=\ *
-                (?P<PowerNow>\d*\ \[mW\])\n
+                (?P<PowerNow>\d*)\ \[mW\]\n
             /sys/class/power_supply/(?P=BatteryName)/status\ *=\ *
                 (?P<Status>(\w|[() ])*)\n
             \n
@@ -132,6 +139,12 @@ class BatteryInfo(object):
       result += battery.EnergyFullFloat()
     return result
 
+  def TotalPowerNow(self):
+    result = 0
+    for battery in self.batteries.values():
+      result += battery.PowerNowFloat()
+    return result
+
   def UpdateHistory(self):
     battery_list = tuple(sorted(self.batteries.keys()))
     l = []
@@ -145,22 +158,30 @@ class BatteryInfo(object):
 
   # Returns time in minutes.
   def EstimateTimeLeft(self):
-    history = self.history[tuple(sorted(self.batteries.keys()))]
-    vs = []
-    for (energy1, timestamp1), (energy2, timestamp2) in \
-        zip(history, history[1:]):
-      energy_delta = energy2 - energy1
-      time_delta = timestamp2 - timestamp1
-      assert time_delta > 0
-      if abs(energy_delta) > 0:
-        vs.append(energy_delta / time_delta)
-    if len(vs) == 0:
+    try:
+      for battery in self.batteries.values():
+        if battery.IsCharging():
+          return 60 * (battery.EnergyFullFloat() - battery.EnergyNowFloat()) \
+              / battery.PowerNowFloat()
+      return 60 * self.TotalEnergyNow() / self.TotalPowerNow()
+    except ZeroDivisionError:
       return None
-    v = vs[-1]
-    if v < 0:
-      return -(self.TotalEnergyNow() / v) / 60
-    else:
-      return ((self.TotalEnergyFull() - self.TotalEnergyNow()) / v) / 60
+#    history = self.history[tuple(sorted(self.batteries.keys()))]
+#    vs = []
+#    for (energy1, timestamp1), (energy2, timestamp2) in \
+#        zip(history, history[1:]):
+#      energy_delta = energy2 - energy1
+#      time_delta = timestamp2 - timestamp1
+#      assert time_delta > 0
+#      if abs(energy_delta) > 0:
+#        vs.append(energy_delta / time_delta)
+#    if len(vs) == 0:
+#      return None
+#    v = vs[-1]
+#    if v < 0:
+#      return -(self.TotalEnergyNow() / v) / 60
+#    else:
+#      return ((self.TotalEnergyFull() - self.TotalEnergyNow()) / v) / 60
 
 
 signal.signal(signal.SIGINT, signal.SIG_DFL)
