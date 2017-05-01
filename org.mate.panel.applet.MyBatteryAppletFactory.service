@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.mate.panel.applet.MyBatteryAppletFactory
+Exec=/home/mareksom/github/battery-applet/battery-applet.py
