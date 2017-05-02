@@ -72,7 +72,6 @@ class Battery(object):
 
 class BatteryInfo(object):
   def __init__(self):
-    self.history = {}
     self.re = re.compile(
         r"""\+\+\+\ ThinkPad\ Battery\ Status:
             \ (?P<BatteryName>\w+)\ \(.*?(?P<BatteryDescription>\w*)\)
@@ -123,7 +122,6 @@ class BatteryInfo(object):
         self.batteries[battery_dict["BatteryName"]] = Battery(battery_dict)
     if is_cleared:
       self.error = ""
-      self.UpdateHistory()
     else:
       self.error = "Retreiving information failed."
 
@@ -145,17 +143,6 @@ class BatteryInfo(object):
       result += battery.PowerNowFloat()
     return result
 
-  def UpdateHistory(self):
-    battery_list = tuple(sorted(self.batteries.keys()))
-    l = []
-    if battery_list not in self.history:
-      self.history[battery_list] = l
-    else:
-      l = self.history[battery_list]
-    l.append((self.TotalEnergyNow(), time.time()))
-    if len(l) > 32:
-      l = l[-32:]
-
   # Returns time in minutes.
   def EstimateTimeLeft(self):
     try:
@@ -166,22 +153,6 @@ class BatteryInfo(object):
       return 60 * self.TotalEnergyNow() / self.TotalPowerNow()
     except ZeroDivisionError:
       return None
-#    history = self.history[tuple(sorted(self.batteries.keys()))]
-#    vs = []
-#    for (energy1, timestamp1), (energy2, timestamp2) in \
-#        zip(history, history[1:]):
-#      energy_delta = energy2 - energy1
-#      time_delta = timestamp2 - timestamp1
-#      assert time_delta > 0
-#      if abs(energy_delta) > 0:
-#        vs.append(energy_delta / time_delta)
-#    if len(vs) == 0:
-#      return None
-#    v = vs[-1]
-#    if v < 0:
-#      return -(self.TotalEnergyNow() / v) / 60
-#    else:
-#      return ((self.TotalEnergyFull() - self.TotalEnergyNow()) / v) / 60
 
 
 signal.signal(signal.SIGINT, signal.SIG_DFL)
