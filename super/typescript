@@ -1,0 +1,866 @@
+Script started on czw, 4 maj 2017, 00:00:55
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ script --return -c[Kafc '[K"$(printf "%q " "$@")";[1P")";[1P")";l")";s")";
+Script started, file is typescript
+battery_info.cpp  battery_info.h  battery_info.o  libbatteryapplet.so  main.cpp  Makefile  run.e  typescript  xfce_plugin.c  xfce_plugin.o
+Script done, file is typescript
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ script --return -afc "$(printf "%q " "ls")"; ;/;d;e;v;/;n;u;l;l;
+Script started, file is /dev/null
+battery_info.cpp  battery_info.h  battery_info.o  libbatteryapplet.so  main.cpp  Makefile  run.e  typescript  xfce_plugin.c  xfce_plugin.o
+Script done, file is /dev/null
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ script --return -afc "$(printf "%q " "ls")" /dev/null; ;2;>; ;/;d;e;v;/;n;u;l;l;
+Script started, file is /dev/null
+battery_info.cpp  battery_info.h  battery_info.o  libbatteryapplet.so  main.cpp  Makefile  run.e  typescript  xfce_plugin.c  xfce_plugin.o
+Script done, file is /dev/null
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ script --return -afc "$(printf "%q " "ls")" /dev/null 2> /dev/null;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[C[K | less
+[?1049h[?1h=Script started, file is /dev/null
+battery_info.cpp  battery_info.h  battery_info.o  libbatteryapplet.so  main.cpp  Makefile  run.e  typescript  xfce_plugin.c  xfce_plugin.o
+Script done, file is /dev/null
+[3m(END)[23m[K[K[K[3m(END)[23m[K[K...skipping...
+Script started, file is /dev/null
+battery_info.cpp  battery_info.h  battery_info.o  libbatteryapplet.so  main.cpp  Makefile  run.e  typescript  xfce_plugin.c  xfce_plugin.o
+Script done, file is /dev/null
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[?1l>[?1049l[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ script --return -afc "$(printf "%q " "ls")" /dev/null | less -R
+[?1049h[?1h=Script started, file is /dev/null[m
+battery_info.cpp  battery_info.h  battery_info.o  libbatteryapplet.so  main.cpp  Makefile  run.e  typescript  xfce_plugin.c  xfce_plugin.o[m
+Script done, file is /dev/null[m
+[3m(END)[23m[K[K...skipping...
+Script started, file is /dev/null[m
+battery_info.cpp  battery_info.h  battery_info.o  libbatteryapplet.so  main.cpp  Makefile  run.e  typescript  xfce_plugin.c  xfce_plugin.o[m
+Script done, file is /dev/null[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[?1l>[?1049l[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ ls
+battery_info.cpp  battery_info.h  battery_info.o  [0m[01;32mlibbatteryapplet.so[0m  main.cpp  Makefile  [01;32mrun.e[0m  typescript  xfce_plugin.c  xfce_plugin.o
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ lsscript --return -afc "$(printf "%q " "ls")" /dev/null | less -R[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K[Kscript --return -c "[ls]" /dev/null
+Script started, file is /dev/null
+bash: [ls]: command not found
+Script done, file is /dev/null
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ script --return -c "[ls]" /dev/null[1P[C[C[C[1P
+Script started, file is /dev/null
+battery_info.cpp  battery_info.h  battery_info.o  libbatteryapplet.so  main.cpp  Makefile  run.e  typescript  xfce_plugin.c  xfce_plugin.o
+Script done, file is /dev/null
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ script --return -c "ls" /dev/null | less -R
+[?1049h[?1h=Script started, file is /dev/null[m
+battery_info.cpp  battery_info.h  battery_info.o  libbatteryapplet.so  main.cpp  Makefile  run.e  typescript  xfce_plugin.c  xfce_plugin.o[m
+Script done, file is /dev/null[m
+[3m(END)[23m[Kjkkq    q 
+[K[K[3m(END)[23m[K
+[K[K[3m(END)[23m[Kq
+[K[?1l>[?1049l[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ 
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ script --return -c "ls" /dev/null | less -R[K[K[K[K[K[K[K[K[K[K
+Script started, file is /dev/null
+battery_info.cpp  battery_info.h  battery_info.o  libbatteryapplet.so  main.cpp  Makefile  run.e  typescript  xfce_plugin.c  xfce_plugin.o
+Script done, file is /dev/null
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ 0<&- script -qfc "ls" /dev/null
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ 0<&- script -qfc "ls" /dev/null[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | less -R
+[?1049h[?1h=[K:[K...skipping...
+:[K...skipping...
+:[K...skipping...
+:[K...skipping...
+:[K...skipping...
+:[K[K[?1l>[?1049l
+[1]+  Stopped                 script -qfc "ls" /dev/null 0>&- | less -R
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ kill -9 %1
+
+[1]+  Stopped                 script -qfc "ls" /dev/null 0>&- | less -R
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ jobs
+[1]+  Killed                  script -qfc "ls" /dev/null 0>&- | less -R
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ jobs
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ { 0</dev/null script -a[Kqfc "/de[K[K[Kls" /dev/null [K; } \[K| less -R
+[?1049h[?1h=battery_info.cpp  battery_info.o       main.cpp  run.e       xfce_plugin.c[m
+battery_info.h    libbatteryapplet.so  Makefile  typescript  xfce_plugin.o[m
+[3m(END)[23m[K[K[K[3m(END)[23m[K[K...skipping...
+battery_info.cpp  battery_info.o       main.cpp  run.e       xfce_plugin.c[m
+battery_info.h    libbatteryapplet.so  Makefile  typescript  xfce_plugin.o[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[?1l>[?1049l[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ k[K{ 0</dev/null script -qfc "ls" /dev/null; } | less -R[1P[1P[1@m[1@a[1@k[1@e
+[?1049h[?1h=gcc xfce_plugin.c -o xfce_plugin.o -c -fPIC -O3 \[m
+    -pthread -I/usr/include/xfce4/libxfce4panel-2.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/inc[m lude/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/mirclient -I/usr/include/mircommon -I/usr/include/mircookie -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0[m  -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng12 -I/usr/include/xfce4 -I/usr/include/gli[m b-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include[m
+[01mxfce_plugin.c:[m In function ‘[01mBatteryInfoSlot[m’:[m
+[01mxfce_plugin.c:65:3:[m [01;35mwarning: [m‘[01mgdk_threads_enter[m’ is deprecated [-Wdeprecated-declarations][m
+   gdk_threads_enter();[m
+[01;32m   ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdk.h:56:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/gtk-3.0/gdk/gdkthreads.h:46:10:[m [01;36mnote: [mdeclared here[m
+ void     gdk_threads_enter                    (void);[m
+[01;32m          ^[m[m
+[01mxfce_plugin.c:68:3:[m [01;35mwarning: [m‘[01mgdk_threads_leave[m’ is deprecated [-Wdeprecated-declarations][m
+   gdk_threads_leave();[m
+[01;32m   ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdk.h:56:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/gtk-3.0/gdk/gdkthreads.h:48:10:[m [01;36mnote: [mdeclared here[m
+ void     gdk_threads_leave                    (void);[m
+[01;32m          ^[m[m
+[01mxfce_plugin.c:[m In function ‘[01mSetSourceRgbForBattery[m’:[m
+[01mxfce_plugin.c:97:5:[m [01;35mwarning: [mimplicit declaration of function ‘[01mcairo_set_context_rgb[m’ [-Wimplicit-function-declaration][m
+     cairo_set_context_rgb(context, 1, 1, 0);[m
+[01;32m     ^[m[m
+[01mxfce_plugin.c:[m In function ‘[01mPaintBattery[m’:[m
+[01mxfce_plugin.c:125:47:[m [01;31merror: [mexpected expression before ‘[01m)[m’ token[m
+     cairo_set_line_width(context, BORDER_WIDTH);[m
+[01;32m                                               ^[m[m
+[01mxfce_plugin.c:126:37:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+     cairo_arc(context, CORNER_RADIUS, CORNER_RADIUS, CORNER_RADIUS,[m
+[01;32m                                     ^[m[m
+[01mxfce_plugin.c:127:15:[m [01;31merror: [m‘[01mM_PI[m’ undeclared (first use in this function)[m
+               M_PI, M_PI * 3 / 2);[m
+[01;32m               ^[m[m
+[01mxfce_plugin.c:127:15:[m [01;36mnote: [meach undeclared identifier is reported only once for each function it appears in[m
+[01mxfce_plugin.c:128:57:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+     cairo_arc(context, width - CORNER_RADIUS - TOP_WIDTH, CORNER_RADIUS,[m
+[01;32m                                                         ^[m[m
+[01mxfce_plugin.c:128:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_arc[m’[m
+     cairo_arc(context, width - CORNER_RADIUS - TOP_WIDTH, CORNER_RADIUS,[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:862:1:[m [01;36mnote: [mdeclared here[m
+ cairo_arc (cairo_t *cr,[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:130:45:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+     cairo_line_to(context, width - TOP_WIDTH, (1 - TOP_WIDTH) / 2);[m
+[01;32m                                             ^[m[m
+[01mxfce_plugin.c:131:42:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+:[K[K     cairo_arc(context, width - TOP_RADIUS, (1 - TOP_HEIGHT) / 2 + TOP_RADIUS,[m
+:[K[K[HMgcc xfce_plugin.c -o xfce_plugin.o -c -fPIC -O3 \[m
+[58;1H[K:[K[K     cairo_arc(context, width - TOP_RADIUS, (1 - TOP_HEIGHT) / 2 + TOP_RADIUS,[m
+:[K[K[01;32m                                          ^[m[m
+:[K[K[01mxfce_plugin.c:131:77:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+:[K[K     cairo_arc(context, width - TOP_RADIUS, (1 - TOP_HEIGHT) / 2 + TOP_RADIUS,[m
+:[K[K[01;32m                                                                             ^[m[m
+:[K[K[01mxfce_plugin.c:131:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_arc[m’[m
+:[K[K...skipping...
+[01;32m                                     ^[m[m
+[01mxfce_plugin.c:138:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_arc[m’[m
+     cairo_arc(context, CORNER_RADIUS, 1 - CORNER_RADIUS, CORNER_RADIUS,[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:862:1:[m [01;36mnote: [mdeclared here[m
+ cairo_arc (cairo_t *cr,[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:142:36:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+     cairo_move_to(width - TOP_WIDTH, (1 - TOP_HEIGHT) / 2);[m
+[01;32m                                    ^[m[m
+[01mxfce_plugin.c:142:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_move_to[m’[m
+     cairo_move_to(width - TOP_WIDTH, (1 - TOP_HEIGHT) / 2);[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:847:1:[m [01;36mnote: [mdeclared here[m
+ cairo_move_to (cairo_t *cr, double x, double y);[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:143:36:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+     cairo_line_to(width - TOP_WIDTH, (1 + TOP_HEIGHT) / 2);[m
+[01;32m                                    ^[m[m
+[01mxfce_plugin.c:143:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_line_to[m’[m
+     cairo_line_to(width - TOP_WIDTH, (1 + TOP_HEIGHT) / 2);[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:853:1:[m [01;36mnote: [mdeclared here[m
+ cairo_line_to (cairo_t *cr, double x, double y);[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:[m In function ‘[01mExposeEventSlot[m’:[m
+[01mxfce_plugin.c:165:48:[m [01;31merror: [mexpected expression before ‘[01m)[m’ token[m
+     for (i = 0; i < bi->number_of_batteries; i+) {[m
+[01;32m                                                ^[m[m
+[01mxfce_plugin.c:168:9:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_rectangle[m’[m
+         cairo_rectangle(0, 0, width / bi->number_of_batteries, height);[m
+[01;32m         ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:894:1:[m [01;36mnote: [mdeclared here[m
+ cairo_rectangle (cairo_t *cr,[m
+[01;32m ^[m[m
+Makefile:18: recipe for target 'xfce_plugin.o' failed[m
+make: *** [xfce_plugin.o] Error 1[m
+[3m(END)[23m[K[K[H[J[HM[01mxfce_plugin.c:131:42:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m                                             ^[m[m
+[HM     cairo_line_to(context, width - TOP_WIDTH, (1 - TOP_WIDTH) / 2);[m
+[HM[01mxfce_plugin.c:130:45:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m ^[m[m
+[HM cairo_arc (cairo_t *cr,[m
+[HM[01m/usr/include/cairo/cairo.h:862:1:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HM                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+[HM                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+[HM[01;32m     ^[m[m
+[HM     cairo_arc(context, width - CORNER_RADIUS - TOP_WIDTH, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:128:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_arc[m’[m
+[HM[01;32m                                                         ^[m[m
+[HM     cairo_arc(context, width - CORNER_RADIUS - TOP_WIDTH, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:128:57:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01mxfce_plugin.c:127:15:[m [01;36mnote: [meach undeclared identifier is reported only once for each function it appears in[m
+[HM[01;32m               ^[m[m
+[HM               M_PI, M_PI * 3 / 2);[m
+[HM[01mxfce_plugin.c:127:15:[m [01;31merror: [m‘[01mM_PI[m’ undeclared (first use in this function)[m
+[HM[01;32m                                     ^[m[m
+[HM     cairo_arc(context, CORNER_RADIUS, CORNER_RADIUS, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:126:37:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m                                               ^[m[m
+[HM     cairo_set_line_width(context, BORDER_WIDTH);[m
+[HM[01mxfce_plugin.c:125:47:[m [01;31merror: [mexpected expression before ‘[01m)[m’ token[m
+[HM[01mxfce_plugin.c:[m In function ‘[01mPaintBattery[m’:[m
+[HM[01;32m     ^[m[m
+[HM     cairo_set_context_rgb(context, 1, 1, 0);[m
+[HM[01mxfce_plugin.c:97:5:[m [01;35mwarning: [mimplicit declaration of function ‘[01mcairo_set_context_rgb[m’ [-Wimplicit-function-declaration][m
+[HM[01mxfce_plugin.c:[m In function ‘[01mSetSourceRgbForBattery[m’:[m
+[HM[01;32m          ^[m[m
+[HM void     gdk_threads_leave                    (void);[m
+[HM[01m/usr/include/gtk-3.0/gdk/gdkthreads.h:48:10:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdk.h:56:0[m,[m
+[HM[01;32m   ^[m[m
+[HM   gdk_threads_leave();[m
+[HM[01mxfce_plugin.c:68:3:[m [01;35mwarning: [m‘[01mgdk_threads_leave[m’ is deprecated [-Wdeprecated-declarations][m
+[HM[01;32m          ^[m[m
+[HM void     gdk_threads_enter                    (void);[m
+[HM[01m/usr/include/gtk-3.0/gdk/gdkthreads.h:46:10:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdk.h:56:0[m,[m
+[HM[01;32m   ^[m[m
+[HM   gdk_threads_enter();[m
+[HM[01mxfce_plugin.c:65:3:[m [01;35mwarning: [m‘[01mgdk_threads_enter[m’ is deprecated [-Wdeprecated-declarations][m
+[HM[01mxfce_plugin.c:[m In function ‘[01mBatteryInfoSlot[m’:[m
+[HMb-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include[m
+[HM -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng12 -I/usr/include/xfce4 -I/usr/include/gli[m[HMlude/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/mirclient -I/usr/include/mircommon -I/usr/include/mircookie -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0[m[HM    -pthread -I/usr/include/xfce4/libxfce4panel-2.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/inc[m[HMgcc xfce_plugin.c -o xfce_plugin.o -c -fPIC -O3 \[m
+[58;1H[K:[K[K[K:[K[K     cairo_arc(context, width - TOP_RADIUS, (1 - TOP_HEIGHT) / 2 + TOP_RADIUS,[m
+:[K[K...skipping...
+[01;32m                                     ^[m[m
+[01mxfce_plugin.c:138:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_arc[m’[m
+     cairo_arc(context, CORNER_RADIUS, 1 - CORNER_RADIUS, CORNER_RADIUS,[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:862:1:[m [01;36mnote: [mdeclared here[m
+ cairo_arc (cairo_t *cr,[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:142:36:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+     cairo_move_to(width - TOP_WIDTH, (1 - TOP_HEIGHT) / 2);[m
+[01;32m                                    ^[m[m
+[01mxfce_plugin.c:142:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_move_to[m’[m
+     cairo_move_to(width - TOP_WIDTH, (1 - TOP_HEIGHT) / 2);[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:847:1:[m [01;36mnote: [mdeclared here[m
+ cairo_move_to (cairo_t *cr, double x, double y);[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:143:36:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+     cairo_line_to(width - TOP_WIDTH, (1 + TOP_HEIGHT) / 2);[m
+[01;32m                                    ^[m[m
+[01mxfce_plugin.c:143:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_line_to[m’[m
+     cairo_line_to(width - TOP_WIDTH, (1 + TOP_HEIGHT) / 2);[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:853:1:[m [01;36mnote: [mdeclared here[m
+ cairo_line_to (cairo_t *cr, double x, double y);[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:[m In function ‘[01mExposeEventSlot[m’:[m
+[01mxfce_plugin.c:165:48:[m [01;31merror: [mexpected expression before ‘[01m)[m’ token[m
+     for (i = 0; i < bi->number_of_batteries; i+) {[m
+[01;32m                                                ^[m[m
+[01mxfce_plugin.c:168:9:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_rectangle[m’[m
+         cairo_rectangle(0, 0, width / bi->number_of_batteries, height);[m
+[01;32m         ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:894:1:[m [01;36mnote: [mdeclared here[m
+ cairo_rectangle (cairo_t *cr,[m
+[01;32m ^[m[m
+Makefile:18: recipe for target 'xfce_plugin.o' failed[m
+make: *** [xfce_plugin.o] Error 1[m
+[3m(END)[23m[K[K[H[J[HM[01mxfce_plugin.c:131:42:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m                                             ^[m[m
+[HM     cairo_line_to(context, width - TOP_WIDTH, (1 - TOP_WIDTH) / 2);[m
+[HM[01mxfce_plugin.c:130:45:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m ^[m[m
+[HM cairo_arc (cairo_t *cr,[m
+[HM[01m/usr/include/cairo/cairo.h:862:1:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HM                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+[HM                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+[HM[01;32m     ^[m[m
+[HM     cairo_arc(context, width - CORNER_RADIUS - TOP_WIDTH, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:128:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_arc[m’[m
+[HM[01;32m                                                         ^[m[m
+[HM     cairo_arc(context, width - CORNER_RADIUS - TOP_WIDTH, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:128:57:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01mxfce_plugin.c:127:15:[m [01;36mnote: [meach undeclared identifier is reported only once for each function it appears in[m
+[HM[01;32m               ^[m[m
+[HM               M_PI, M_PI * 3 / 2);[m
+[HM[01mxfce_plugin.c:127:15:[m [01;31merror: [m‘[01mM_PI[m’ undeclared (first use in this function)[m
+[HM[01;32m                                     ^[m[m
+[HM     cairo_arc(context, CORNER_RADIUS, CORNER_RADIUS, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:126:37:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m                                               ^[m[m
+[HM     cairo_set_line_width(context, BORDER_WIDTH);[m
+[HM[01mxfce_plugin.c:125:47:[m [01;31merror: [mexpected expression before ‘[01m)[m’ token[m
+[HM[01mxfce_plugin.c:[m In function ‘[01mPaintBattery[m’:[m
+[HM[01;32m     ^[m[m
+[HM     cairo_set_context_rgb(context, 1, 1, 0);[m
+[HM[01mxfce_plugin.c:97:5:[m [01;35mwarning: [mimplicit declaration of function ‘[01mcairo_set_context_rgb[m’ [-Wimplicit-function-declaration][m
+[HM[01mxfce_plugin.c:[m In function ‘[01mSetSourceRgbForBattery[m’:[m
+[HM[01;32m          ^[m[m
+[HM void     gdk_threads_leave                    (void);[m
+[HM[01m/usr/include/gtk-3.0/gdk/gdkthreads.h:48:10:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdk.h:56:0[m,[m
+[HM[01;32m   ^[m[m
+[HM   gdk_threads_leave();[m
+[HM[01mxfce_plugin.c:68:3:[m [01;35mwarning: [m‘[01mgdk_threads_leave[m’ is deprecated [-Wdeprecated-declarations][m
+[HM[01;32m          ^[m[m
+[HM void     gdk_threads_enter                    (void);[m
+[HM[01m/usr/include/gtk-3.0/gdk/gdkthreads.h:46:10:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdk.h:56:0[m,[m
+[HM[01;32m   ^[m[m
+[HM   gdk_threads_enter();[m
+[HM[01mxfce_plugin.c:65:3:[m [01;35mwarning: [m‘[01mgdk_threads_enter[m’ is deprecated [-Wdeprecated-declarations][m
+[HM[01mxfce_plugin.c:[m In function ‘[01mBatteryInfoSlot[m’:[m
+[HMb-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include[m
+[HM -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng12 -I/usr/include/xfce4 -I/usr/include/gli[m[HMlude/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/mirclient -I/usr/include/mircommon -I/usr/include/mircookie -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0[m[HM    -pthread -I/usr/include/xfce4/libxfce4panel-2.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/inc[m[HMgcc xfce_plugin.c -o xfce_plugin.o -c -fPIC -O3 \[m
+[58;1H[K:[K[K...skipping...
+[01;32m                                     ^[m[m
+[01mxfce_plugin.c:138:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_arc[m’[m
+     cairo_arc(context, CORNER_RADIUS, 1 - CORNER_RADIUS, CORNER_RADIUS,[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:862:1:[m [01;36mnote: [mdeclared here[m
+ cairo_arc (cairo_t *cr,[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:142:36:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+     cairo_move_to(width - TOP_WIDTH, (1 - TOP_HEIGHT) / 2);[m
+[01;32m                                    ^[m[m
+[01mxfce_plugin.c:142:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_move_to[m’[m
+     cairo_move_to(width - TOP_WIDTH, (1 - TOP_HEIGHT) / 2);[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:847:1:[m [01;36mnote: [mdeclared here[m
+ cairo_move_to (cairo_t *cr, double x, double y);[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:143:36:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+     cairo_line_to(width - TOP_WIDTH, (1 + TOP_HEIGHT) / 2);[m
+[01;32m                                    ^[m[m
+[01mxfce_plugin.c:143:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_line_to[m’[m
+     cairo_line_to(width - TOP_WIDTH, (1 + TOP_HEIGHT) / 2);[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:853:1:[m [01;36mnote: [mdeclared here[m
+ cairo_line_to (cairo_t *cr, double x, double y);[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:[m In function ‘[01mExposeEventSlot[m’:[m
+[01mxfce_plugin.c:165:48:[m [01;31merror: [mexpected expression before ‘[01m)[m’ token[m
+     for (i = 0; i < bi->number_of_batteries; i+) {[m
+[01;32m                                                ^[m[m
+[01mxfce_plugin.c:168:9:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_rectangle[m’[m
+         cairo_rectangle(0, 0, width / bi->number_of_batteries, height);[m
+[01;32m         ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:894:1:[m [01;36mnote: [mdeclared here[m
+ cairo_rectangle (cairo_t *cr,[m
+[01;32m ^[m[m
+Makefile:18: recipe for target 'xfce_plugin.o' failed[m
+make: *** [xfce_plugin.o] Error 1[m
+[3m(END)[23m[K[K[H[J[HM[01mxfce_plugin.c:131:42:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m                                             ^[m[m
+[HM     cairo_line_to(context, width - TOP_WIDTH, (1 - TOP_WIDTH) / 2);[m
+[HM[01mxfce_plugin.c:130:45:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m ^[m[m
+[HM cairo_arc (cairo_t *cr,[m
+[HM[01m/usr/include/cairo/cairo.h:862:1:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HM                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+[HM                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+[HM[01;32m     ^[m[m
+[HM     cairo_arc(context, width - CORNER_RADIUS - TOP_WIDTH, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:128:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_arc[m’[m
+[HM[01;32m                                                         ^[m[m
+[HM     cairo_arc(context, width - CORNER_RADIUS - TOP_WIDTH, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:128:57:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01mxfce_plugin.c:127:15:[m [01;36mnote: [meach undeclared identifier is reported only once for each function it appears in[m
+[HM[01;32m               ^[m[m
+[HM               M_PI, M_PI * 3 / 2);[m
+[HM[01mxfce_plugin.c:127:15:[m [01;31merror: [m‘[01mM_PI[m’ undeclared (first use in this function)[m
+[HM[01;32m                                     ^[m[m
+[HM     cairo_arc(context, CORNER_RADIUS, CORNER_RADIUS, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:126:37:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m                                               ^[m[m
+[HM     cairo_set_line_width(context, BORDER_WIDTH);[m
+[HM[01mxfce_plugin.c:125:47:[m [01;31merror: [mexpected expression before ‘[01m)[m’ token[m
+[HM[01mxfce_plugin.c:[m In function ‘[01mPaintBattery[m’:[m
+[HM[01;32m     ^[m[m
+[HM     cairo_set_context_rgb(context, 1, 1, 0);[m
+[HM[01mxfce_plugin.c:97:5:[m [01;35mwarning: [mimplicit declaration of function ‘[01mcairo_set_context_rgb[m’ [-Wimplicit-function-declaration][m
+[HM[01mxfce_plugin.c:[m In function ‘[01mSetSourceRgbForBattery[m’:[m
+[HM[01;32m          ^[m[m
+[HM void     gdk_threads_leave                    (void);[m
+[HM[01m/usr/include/gtk-3.0/gdk/gdkthreads.h:48:10:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdk.h:56:0[m,[m
+[HM[01;32m   ^[m[m
+[HM   gdk_threads_leave();[m
+[HM[01mxfce_plugin.c:68:3:[m [01;35mwarning: [m‘[01mgdk_threads_leave[m’ is deprecated [-Wdeprecated-declarations][m
+[HM[01;32m          ^[m[m
+[HM void     gdk_threads_enter                    (void);[m
+[HM[01m/usr/include/gtk-3.0/gdk/gdkthreads.h:46:10:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdk.h:56:0[m,[m
+[HM[01;32m   ^[m[m
+[HM   gdk_threads_enter();[m
+[HM[01mxfce_plugin.c:65:3:[m [01;35mwarning: [m‘[01mgdk_threads_enter[m’ is deprecated [-Wdeprecated-declarations][m
+[HM[01mxfce_plugin.c:[m In function ‘[01mBatteryInfoSlot[m’:[m
+[HMb-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include[m
+[HM -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng12 -I/usr/include/xfce4 -I/usr/include/gli[m[HMlude/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/mirclient -I/usr/include/mircommon -I/usr/include/mircookie -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0[m[HM    -pthread -I/usr/include/xfce4/libxfce4panel-2.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/inc[m[HMgcc xfce_plugin.c -o xfce_plugin.o -c -fPIC -O3 \[m
+[58;1H[K:[K[K[K:[K[K...skipping...
+[01;32m                                     ^[m[m
+[01mxfce_plugin.c:138:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_arc[m’[m
+     cairo_arc(context, CORNER_RADIUS, 1 - CORNER_RADIUS, CORNER_RADIUS,[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:862:1:[m [01;36mnote: [mdeclared here[m
+ cairo_arc (cairo_t *cr,[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:142:36:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+     cairo_move_to(width - TOP_WIDTH, (1 - TOP_HEIGHT) / 2);[m
+[01;32m                                    ^[m[m
+[01mxfce_plugin.c:142:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_move_to[m’[m
+     cairo_move_to(width - TOP_WIDTH, (1 - TOP_HEIGHT) / 2);[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:847:1:[m [01;36mnote: [mdeclared here[m
+ cairo_move_to (cairo_t *cr, double x, double y);[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:143:36:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+     cairo_line_to(width - TOP_WIDTH, (1 + TOP_HEIGHT) / 2);[m
+[01;32m                                    ^[m[m
+[01mxfce_plugin.c:143:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_line_to[m’[m
+     cairo_line_to(width - TOP_WIDTH, (1 + TOP_HEIGHT) / 2);[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:853:1:[m [01;36mnote: [mdeclared here[m
+ cairo_line_to (cairo_t *cr, double x, double y);[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:[m In function ‘[01mExposeEventSlot[m’:[m
+[01mxfce_plugin.c:165:48:[m [01;31merror: [mexpected expression before ‘[01m)[m’ token[m
+     for (i = 0; i < bi->number_of_batteries; i+) {[m
+[01;32m                                                ^[m[m
+[01mxfce_plugin.c:168:9:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_rectangle[m’[m
+         cairo_rectangle(0, 0, width / bi->number_of_batteries, height);[m
+[01;32m         ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:894:1:[m [01;36mnote: [mdeclared here[m
+ cairo_rectangle (cairo_t *cr,[m
+[01;32m ^[m[m
+Makefile:18: recipe for target 'xfce_plugin.o' failed[m
+make: *** [xfce_plugin.o] Error 1[m
+[3m(END)[23m[K[K[H[J[HM[01mxfce_plugin.c:131:42:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m                                             ^[m[m
+[HM     cairo_line_to(context, width - TOP_WIDTH, (1 - TOP_WIDTH) / 2);[m
+[HM[01mxfce_plugin.c:130:45:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m ^[m[m
+[HM cairo_arc (cairo_t *cr,[m
+[HM[01m/usr/include/cairo/cairo.h:862:1:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HM                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+[HM                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+[HM[01;32m     ^[m[m
+[HM     cairo_arc(context, width - CORNER_RADIUS - TOP_WIDTH, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:128:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_arc[m’[m
+[HM[01;32m                                                         ^[m[m
+[HM     cairo_arc(context, width - CORNER_RADIUS - TOP_WIDTH, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:128:57:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01mxfce_plugin.c:127:15:[m [01;36mnote: [meach undeclared identifier is reported only once for each function it appears in[m
+[HM[01;32m               ^[m[m
+[HM               M_PI, M_PI * 3 / 2);[m
+[HM[01mxfce_plugin.c:127:15:[m [01;31merror: [m‘[01mM_PI[m’ undeclared (first use in this function)[m
+[HM[01;32m                                     ^[m[m
+[HM     cairo_arc(context, CORNER_RADIUS, CORNER_RADIUS, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:126:37:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m                                               ^[m[m
+[HM     cairo_set_line_width(context, BORDER_WIDTH);[m
+[HM[01mxfce_plugin.c:125:47:[m [01;31merror: [mexpected expression before ‘[01m)[m’ token[m
+[HM[01mxfce_plugin.c:[m In function ‘[01mPaintBattery[m’:[m
+[HM[01;32m     ^[m[m
+[HM     cairo_set_context_rgb(context, 1, 1, 0);[m
+[HM[01mxfce_plugin.c:97:5:[m [01;35mwarning: [mimplicit declaration of function ‘[01mcairo_set_context_rgb[m’ [-Wimplicit-function-declaration][m
+[HM[01mxfce_plugin.c:[m In function ‘[01mSetSourceRgbForBattery[m’:[m
+[HM[01;32m          ^[m[m
+[HM void     gdk_threads_leave                    (void);[m
+[HM[01m/usr/include/gtk-3.0/gdk/gdkthreads.h:48:10:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdk.h:56:0[m,[m
+[HM[01;32m   ^[m[m
+[HM   gdk_threads_leave();[m
+[HM[01mxfce_plugin.c:68:3:[m [01;35mwarning: [m‘[01mgdk_threads_leave[m’ is deprecated [-Wdeprecated-declarations][m
+[HM[01;32m          ^[m[m
+[HM void     gdk_threads_enter                    (void);[m
+[HM[01m/usr/include/gtk-3.0/gdk/gdkthreads.h:46:10:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdk.h:56:0[m,[m
+[HM[01;32m   ^[m[m
+[HM   gdk_threads_enter();[m
+[HM[01mxfce_plugin.c:65:3:[m [01;35mwarning: [m‘[01mgdk_threads_enter[m’ is deprecated [-Wdeprecated-declarations][m
+[HM[01mxfce_plugin.c:[m In function ‘[01mBatteryInfoSlot[m’:[m
+[HMb-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include[m
+[HM -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng12 -I/usr/include/xfce4 -I/usr/include/gli[m[HMlude/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/mirclient -I/usr/include/mircommon -I/usr/include/mircookie -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0[m[HM    -pthread -I/usr/include/xfce4/libxfce4panel-2.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/inc[m[HMgcc xfce_plugin.c -o xfce_plugin.o -c -fPIC -O3 \[m
+[58;1H[K:[K[K...skipping...
+[01;32m                                     ^[m[m
+[01mxfce_plugin.c:138:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_arc[m’[m
+     cairo_arc(context, CORNER_RADIUS, 1 - CORNER_RADIUS, CORNER_RADIUS,[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:862:1:[m [01;36mnote: [mdeclared here[m
+ cairo_arc (cairo_t *cr,[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:142:36:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+     cairo_move_to(width - TOP_WIDTH, (1 - TOP_HEIGHT) / 2);[m
+[01;32m                                    ^[m[m
+[01mxfce_plugin.c:142:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_move_to[m’[m
+     cairo_move_to(width - TOP_WIDTH, (1 - TOP_HEIGHT) / 2);[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:847:1:[m [01;36mnote: [mdeclared here[m
+ cairo_move_to (cairo_t *cr, double x, double y);[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:143:36:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+     cairo_line_to(width - TOP_WIDTH, (1 + TOP_HEIGHT) / 2);[m
+[01;32m                                    ^[m[m
+[01mxfce_plugin.c:143:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_line_to[m’[m
+     cairo_line_to(width - TOP_WIDTH, (1 + TOP_HEIGHT) / 2);[m
+[01;32m     ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:853:1:[m [01;36mnote: [mdeclared here[m
+ cairo_line_to (cairo_t *cr, double x, double y);[m
+[01;32m ^[m[m
+[01mxfce_plugin.c:[m In function ‘[01mExposeEventSlot[m’:[m
+[01mxfce_plugin.c:165:48:[m [01;31merror: [mexpected expression before ‘[01m)[m’ token[m
+     for (i = 0; i < bi->number_of_batteries; i+) {[m
+[01;32m                                                ^[m[m
+[01mxfce_plugin.c:168:9:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_rectangle[m’[m
+         cairo_rectangle(0, 0, width / bi->number_of_batteries, height);[m
+[01;32m         ^[m[m
+In file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+                 from [01mxfce_plugin.c:1[m:[m
+[01m/usr/include/cairo/cairo.h:894:1:[m [01;36mnote: [mdeclared here[m
+ cairo_rectangle (cairo_t *cr,[m
+[01;32m ^[m[m
+Makefile:18: recipe for target 'xfce_plugin.o' failed[m
+make: *** [xfce_plugin.o] Error 1[m
+[3m(END)[23m[K[K[H[J[HM[01mxfce_plugin.c:131:42:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m                                             ^[m[m
+[HM     cairo_line_to(context, width - TOP_WIDTH, (1 - TOP_WIDTH) / 2);[m
+[HM[01mxfce_plugin.c:130:45:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m ^[m[m
+[HM cairo_arc (cairo_t *cr,[m
+[HM[01m/usr/include/cairo/cairo.h:862:1:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HM                 from [01m/usr/include/gtk-3.0/gdk/gdk.h:32[m,[m
+[HM                 from [01m/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdktypes.h:37:0[m,[m
+[HM[01;32m     ^[m[m
+[HM     cairo_arc(context, width - CORNER_RADIUS - TOP_WIDTH, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:128:5:[m [01;31merror: [mtoo few arguments to function ‘[01mcairo_arc[m’[m
+[HM[01;32m                                                         ^[m[m
+[HM     cairo_arc(context, width - CORNER_RADIUS - TOP_WIDTH, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:128:57:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01mxfce_plugin.c:127:15:[m [01;36mnote: [meach undeclared identifier is reported only once for each function it appears in[m
+[HM[01;32m               ^[m[m
+[HM               M_PI, M_PI * 3 / 2);[m
+[HM[01mxfce_plugin.c:127:15:[m [01;31merror: [m‘[01mM_PI[m’ undeclared (first use in this function)[m
+[HM[01;32m                                     ^[m[m
+[HM     cairo_arc(context, CORNER_RADIUS, CORNER_RADIUS, CORNER_RADIUS,[m
+[HM[01mxfce_plugin.c:126:37:[m [01;31merror: [mexpected expression before ‘[01m,[m’ token[m
+[HM[01;32m                                               ^[m[m
+[HM     cairo_set_line_width(context, BORDER_WIDTH);[m
+[HM[01mxfce_plugin.c:125:47:[m [01;31merror: [mexpected expression before ‘[01m)[m’ token[m
+[HM[01mxfce_plugin.c:[m In function ‘[01mPaintBattery[m’:[m
+[HM[01;32m     ^[m[m
+[HM     cairo_set_context_rgb(context, 1, 1, 0);[m
+[HM[01mxfce_plugin.c:97:5:[m [01;35mwarning: [mimplicit declaration of function ‘[01mcairo_set_context_rgb[m’ [-Wimplicit-function-declaration][m
+[HM[01mxfce_plugin.c:[m In function ‘[01mSetSourceRgbForBattery[m’:[m
+[HM[01;32m          ^[m[m
+[HM void     gdk_threads_leave                    (void);[m
+[HM[01m/usr/include/gtk-3.0/gdk/gdkthreads.h:48:10:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdk.h:56:0[m,[m
+[HM[01;32m   ^[m[m
+[HM   gdk_threads_leave();[m
+[HM[01mxfce_plugin.c:68:3:[m [01;35mwarning: [m‘[01mgdk_threads_leave[m’ is deprecated [-Wdeprecated-declarations][m
+[HM[01;32m          ^[m[m
+[HM void     gdk_threads_enter                    (void);[m
+[HM[01m/usr/include/gtk-3.0/gdk/gdkthreads.h:46:10:[m [01;36mnote: [mdeclared here[m
+[HM                 from [01mxfce_plugin.c:1[m:[m
+[HM                 from [01m/usr/include/gtk-3.0/gtk/gtk.h:30[m,[m
+[HMIn file included from [01m/usr/include/gtk-3.0/gdk/gdk.h:56:0[m,[m
+[HM[01;32m   ^[m[m
+[HM   gdk_threads_enter();[m
+[HM[01mxfce_plugin.c:65:3:[m [01;35mwarning: [m‘[01mgdk_threads_enter[m’ is deprecated [-Wdeprecated-declarations][m
+[HM[01mxfce_plugin.c:[m In function ‘[01mBatteryInfoSlot[m’:[m
+[HMb-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include[m
+[HM -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng12 -I/usr/include/xfce4 -I/usr/include/gli[m[HMlude/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/mirclient -I/usr/include/mircommon -I/usr/include/mircookie -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0[m[HM    -pthread -I/usr/include/xfce4/libxfce4panel-2.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/inc[m[HMgcc xfce_plugin.c -o xfce_plugin.o -c -fPIC -O3 \[m
+[58;1H[K:[K[K[?1l>[?1049l[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ { 0</dev/null script -qfc "make" /dev/null; } | less -R^C
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ coless ls
+coless: command not found
+[01;32mmareksom@butuxun[00m:[01;34m~/github/battery-applet/super[00m$ exit
+exit
+
+Script done on czw, 4 maj 2017, 00:07:55
