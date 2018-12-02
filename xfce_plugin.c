@@ -76,7 +76,7 @@ static void SetSourceRgbForTimeLeft(cairo_t* context) {
 static double PaintTime(cairo_t* context, BatteryInfo* bi,
                         double width, double height) {
   cairo_text_extents_t extents;
-  char text[6];
+  char text[20];
   double width_to_height, scale;
   if (bi->minutes_left < 0) {
     sprintf(text, "??:??");

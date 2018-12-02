@@ -20,4 +20,4 @@ xfce_plugin.o: xfce_plugin.c battery_info.h
 
 .PHONY: clean
 clean:
-	rm -f run.e battery_info.o
+	rm -f run.e battery_info.o libbatteryapplet.so xfce_plugin.o
