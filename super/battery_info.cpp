@@ -406,7 +406,6 @@ std::string RunTlpStat() {
 }
 
 void Update() {
-  std::cerr << "Update():" << std::endl;
   std::string tmp_error;
   if (GetError(tmp_error)) {
     std::lock_guard<std::mutex> lock(mutex);

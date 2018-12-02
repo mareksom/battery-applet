@@ -238,15 +238,13 @@ static void PaintBattery(cairo_t* context, SingleBatteryInfo* sbi,
 #define MARGIN_RIGHT 10
 #define SPACING 10
 
-static gboolean ExposeEventSlot(
-    GtkWidget* widget, GdkEventExpose* event, gpointer data) {
+static gboolean DrawSlot(
+    GtkWidget* widget, cairo_t* context, gpointer data) {
   int i;
   double x1, y1, x2, y2;
   double width, height;
   BatteryPanelState* bps = (BatteryPanelState*) data;
   BatteryInfo* bi = &bps->battery_info;
-  cairo_t* context;
-  context = gdk_cairo_create(gtk_widget_get_window(widget));
   cairo_clip_extents(context, &x1, &y1, &x2, &y2);
   cairo_translate(context, x1 + MARGIN_LEFT, y1 + MARGIN_UP);
   width = x2 - x1 - MARGIN_LEFT - MARGIN_RIGHT;
@@ -261,7 +259,6 @@ static gboolean ExposeEventSlot(
       cairo_restore(context);
     }
   cairo_restore(context);
-  cairo_destroy(context);
   return TRUE;
 }
 
@@ -273,8 +270,8 @@ static BatteryPanelState* NewBatteryPanelState() {
   }
   InitializeBatteryInfo(&bps->battery_info);
   bps->drawing_area = gtk_drawing_area_new();
-  g_signal_connect(G_OBJECT(bps->drawing_area), "expose-event",
-                   G_CALLBACK(ExposeEventSlot), (void*) bps);
+  g_signal_connect(G_OBJECT(bps->drawing_area), "draw",
+                   G_CALLBACK(DrawSlot), (void*) bps);
   RegisterCallback(BatteryInfoSlot, (void*) bps);
   return bps;
 }
