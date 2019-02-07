@@ -374,7 +374,10 @@ std::string RunTlpStat() {
       UnrecoverableError("Child: close failed: ", strerror(errno));
     }
     char* const envp[] = {NULL};
-    char* const argv[] = {"/usr/bin/sudo", "/usr/bin/tlp-stat", "-b", NULL};
+    char* const argv[] = {
+        "/usr/bin/tlp-stat-without-sudo",
+        "-b",
+        NULL};
     execve(argv[0], argv, envp);
     UnrecoverableError("Execve failed: ", strerror(errno));
   }
